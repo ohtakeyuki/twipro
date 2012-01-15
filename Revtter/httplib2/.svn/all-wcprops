@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NewWebService/!svn/ver/19/trunk/Revtter/httplib2
+END
+cacerts.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NewWebService/!svn/ver/19/trunk/Revtter/httplib2/cacerts.txt
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NewWebService/!svn/ver/19/trunk/Revtter/httplib2/__init__.py
+END
+socks.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NewWebService/!svn/ver/19/trunk/Revtter/httplib2/socks.py
+END
+iri2uri.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NewWebService/!svn/ver/19/trunk/Revtter/httplib2/iri2uri.py
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NewWebService/!svn/ver/23/trunk/Revtter/batch
+END
+deleteOldTweets.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/NewWebService/!svn/ver/23/trunk/Revtter/batch/deleteOldTweets.py
+END
+twitterget.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NewWebService/!svn/ver/22/trunk/Revtter/batch/twitterget.py
+END

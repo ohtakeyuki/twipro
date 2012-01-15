@@ -1,0 +1,7 @@
+indexes:
+
+- kind: TweetIdEntity
+  properties:
+  - name: tweetKey
+  - name: batchTime
+    direction: desc

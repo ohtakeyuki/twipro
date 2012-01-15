@@ -1,0 +1,7 @@
+cron:
+- description: daily twitter search
+  url: /batch/twitterget.py
+  schedule: every 24 hours
+- description: daily delete job
+  url: /batch/deleteOldTweets.py
+  schedule: every 24 hours

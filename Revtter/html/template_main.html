@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="css/common.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/review_list.js"></script>
+		<title>Rev'tter</title>
+		<script type="text/javascript">
+			$(function() {
+				$('#headImage ul').autoChange({effect : 'fade', type : 'repeat', timeout: 5000, speed : 2000});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="top">
+			<div id="header">
+				<h1>
+					<div id="rogo" style="float:left">
+						<a href="index.html"><img src="images/rogo.png"></a>
+					</div>
+					<div id="top-context">
+						Twitterベースの総合クチコミサイト<br>
+						レビュッター<br>
+						{{ datetm }}
+					</div>
+				</h1>
+			</div><!-- /#header -->
+			
+			<div id="headImage" style="clear:both;">
+				<ul>
+					<li><img src="images/omise1.jpg" width="740" height="200" alt="" /></li>
+					<li><img src="images/omise2.jpg" width="740" height="200" alt="" /></li>
+					<li><img src="images/omise3.jpg" width="740" height="200" alt="" /></li>
+					<li><img src="images/omise4.jpg" width="740" height="200" alt="" /></li>
+					<li><img src="images/omise5.jpg" width="740" height="200" alt="" /></li>
+				</ul>
+			</div><!-- /#headImage -->
+
+			<div id="contents">
+
+				<div id="main">
+					<h2>★ランキング★</h2>
+
+					<div id="ranking-element">
+						<h3>1位</h3>
+						<div id="ranking-header">
+							<div id="name"><a href="{{ url }}">{{ urlname }}</a></div>
+							<div id="num">({{ count }}Tweet)</div>
+						</div>
+						<div id="ranking-body">
+							<div id="review_lead">
+								<img id="plus" src="images/plus.gif">
+								<img id="minus" src="images/minus.gif">
+								<div>{{ rev1 }}</div>
+							</div>
+							<div id="review">{{ rev2 }}</div>
+							<div id="review">{{ rev3 }}</div>
+							<div id="review">{{ rev4 }}</div>
+							<div id="review">{{ rev5 }}</div>
+						</div>
+					</div>
+					<br />
+
+					<div id="ranking-element">
+						<h3>2位</h3>
+						<div id="ranking-header">
+							<div id="name"><a href="#">ページ名</a></div>
+							<div id="num">(Tweet数)</div>
+						</div>
+						<div id="ranking-body">
+							<div id="review_lead">
+								<img id="plus" src="images/plus.gif">
+								<img id="minus" src="images/minus.gif">
+								<div>レビュー1</div>
+							</div>
+							<div id="review">レビュー2</div>
+							<div id="review">レビュー3</div>
+							<div id="review">レビュー4</div>
+							<div id="review">レビュー5</div>
+						</div>
+					</div>
+					<br />
+
+					<div id="ranking-element">
+						<h3>3位</h3>
+						<div id="ranking-header">
+							<div id="name"><a href="#">ページ名</a></div>
+							<div id="num">(Tweet数)</div>
+						</div>
+						<div id="ranking-body">
+							<div id="review_lead">
+								<img id="plus" src="images/plus.gif">
+								<img id="minus" src="images/minus.gif">
+								<div>レビュー1</div>
+							</div>
+							<div id="review">レビュー2</div>
+							<div id="review">レビュー3</div>
+							<div id="review">レビュー4</div>
+							<div id="review">レビュー5</div>
+						</div>
+					</div>
+					<br />
+
+					<div id="ranking-element">
+						<h3>4位</h3>
+						<div id="ranking-header">
+							<div id="name"><a href="#">ページ名</a></div>
+							<div id="num">(Tweet数)</div>
+						</div>
+						<div id="ranking-body">
+							<div id="review_lead">
+								<img id="plus" src="images/plus.gif">
+								<img id="minus" src="images/minus.gif">
+								<div>レビュー1</div>
+							</div>
+							<div id="review">レビュー2</div>
+							<div id="review">レビュー3</div>
+							<div id="review">レビュー4</div>
+							<div id="review">レビュー5</div>
+						</div>
+					</div>
+					<br />
+					
+					<div id="ranking-element">
+						<h3>5位</h3>
+						<div id="ranking-header">
+							<div id="name"><a href="#">ページ名</a></div>
+							<div id="num">(Tweet数)</div>
+						</div>
+						<div id="ranking-body">
+							<div id="review_lead">
+								<img id="plus" src="images/plus.gif">
+								<img id="minus" src="images/minus.gif">
+								<div>レビュー1</div>
+							</div>
+							<div id="review">レビュー2</div>
+							<div id="review">レビュー3</div>
+							<div id="review">レビュー4</div>
+							<div id="review">レビュー5</div>
+						</div>
+					</div>
+					<br />
+
+					<div id="ranking-element">
+						<h3>6位</h3>
+						<div id="ranking-header">
+							<div id="name"><a href="#">ページ名</a></div>
+							<div id="num">(Tweet数)</div>
+						</div>
+						<div id="ranking-body">
+							<div id="review_lead">
+								<img id="plus" src="images/plus.gif">
+								<img id="minus" src="images/minus.gif">
+								<div>レビュー1</div>
+							</div>
+							<div id="review">レビュー2</div>
+							<div id="review">レビュー3</div>
+							<div id="review">レビュー4</div>
+							<div id="review">レビュー5</div>
+						</div>
+					</div>
+					<br />
+
+					<div id="ranking-element">
+						<h3>7位</h3>
+						<div id="ranking-header">
+							<div id="name"><a href="#">ページ名</a></div>
+							<div id="num">(Tweet数)</div>
+						</div>
+						<div id="ranking-body">
+							<div id="review_lead">
+								<img id="plus" src="images/plus.gif">
+								<img id="minus" src="images/minus.gif">
+								<div>レビュー1</div>
+							</div>
+							<div id="review">レビュー2</div>
+							<div id="review">レビュー3</div>
+							<div id="review">レビュー4</div>
+							<div id="review">レビュー5</div>
+						</div>
+					</div>
+					<br />
+
+					<div id="ranking-element">
+						<h3>8位</h3>
+						<div id="ranking-header">
+							<div id="name"><a href="#">ページ名</a></div>
+							<div id="num">(Tweet数)</div>
+						</div>
+						<div id="ranking-body">
+							<div id="review_lead">
+								<img id="plus" src="images/plus.gif">
+								<img id="minus" src="images/minus.gif">
+								<div>レビュー1</div>
+							</div>
+							<div id="review">レビュー2</div>
+							<div id="review">レビュー3</div>
+							<div id="review">レビュー4</div>
+							<div id="review">レビュー5</div>
+						</div>
+					</div>
+					<br />
+
+					<div id="ranking-element">
+						<h3>9位</h3>
+						<div id="ranking-header">
+							<div id="name"><a href="#">ページ名</a></div>
+							<div id="num">(Tweet数)</div>
+						</div>
+						<div id="ranking-body">
+							<div id="review_lead">
+								<img id="plus" src="images/plus.gif">
+								<img id="minus" src="images/minus.gif">
+								<div>レビュー1</div>
+							</div>
+							<div id="review">レビュー2</div>
+							<div id="review">レビュー3</div>
+							<div id="review">レビュー4</div>
+							<div id="review">レビュー5</div>
+						</div>
+					</div>
+					<br />
+
+					<div id="ranking-element">
+						<h3>10位</h3>
+						<div id="ranking-header">
+							<div id="name"><a href="#">ページ名</a></div>
+							<div id="num">(Tweet数)</div>
+						</div>
+						<div id="ranking-body">
+							<div id="review_lead">
+								<img id="plus" src="images/plus.gif">
+								<img id="minus" src="images/minus.gif">
+								<div>レビュー1</div>
+							</div>
+							<div id="review">レビュー2</div>
+							<div id="review">レビュー3</div>
+							<div id="review">レビュー4</div>
+							<div id="review">レビュー5</div>
+						</div>
+					</div>
+					<br />
+
+				</div><!-- /#main -->
+
+
+				<div id="sub">
+					<div class="section">
+						<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+						<script>
+							new TWTR.Widget({
+								version: 2,
+								type: 'search',
+								search: '#ラーメン',
+								interval: 30000,
+								title: 'Rev\'tter',
+								subject: '最新レビュー',
+								width: 180,
+								height: 1000,
+								theme: {
+									shell: {
+										background: '#d6c6af',
+										color: '#ffffff'
+									},
+									tweets: {
+										background: '#ffffff',
+										color: '#444444',
+										links: '#1985b5'
+									}
+								},
+								features: {
+									scrollbar: false,
+									loop: true,
+									live: true,
+									behavior: 'default'
+								}
+							}).render().start();
+						</script>
+					</div><!-- /#sub -->
+				</div><!-- /#contents -->
+				<div id="pageTop">
+					<a href="#">ページのトップへ戻る</a>
+				</div><!-- /#pageTop -->
+			</div><!-- /top -->
+
+<div id="menu">
+    <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="first_access.html">初めての方へ</a></li>
+        <li><a href="index.html">&nbsp;</a></li><!-- 暫定 -->
+        <li><a href="index.html">&nbsp;</a></li><!-- 暫定 -->
+        <li><a href="index.html">&nbsp;</a></li><!-- 暫定 -->
+    </ul>
+</div>
+
+<div id="footer">
+	<div class="copyright">Copyright &copy; 2011  Rev'tter All Rights Reserved.</div>
+</div><!-- /footer -->
+
+</body>
+</html>
